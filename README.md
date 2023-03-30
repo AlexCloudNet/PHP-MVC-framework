@@ -5,7 +5,7 @@ ___
 Простая реализация **MVC** Архитектуры на **PHP**.
 
 **How to use:**
-1. Create route in `config\routes.php`
+1. #### Create route in `config\routes.php` ####
 ```php
 'blog'=>[
     'controller' => 'blog',
@@ -16,7 +16,7 @@ ___
     'action' => 'show'
 ]
 ```
-2. Create `Name_controller.php` in `app\controllers`
+2. #### Create `Name_controller.php` in `app\controllers` ####
 ```php
 namespace app\controllers;
 use core\Controller;
@@ -38,7 +38,7 @@ class Blog_Controller extends Controller
     
 }
 ```
-3. Create Model, if need `app\model\Name_model.php`
+3. #### Create Model, if need `app\model\Name_model.php` ####
 
 ```php
 namespace app\model;
@@ -53,7 +53,7 @@ class Blog_model extends Model {
     
 }
 ```
-4. Create View in `app\view`.
+4. #### Create View in `app\view` ####
       - view
         - blog
           - `index.php` 
